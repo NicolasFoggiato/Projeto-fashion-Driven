@@ -23,17 +23,17 @@
 
             <div class="modelos">
            
-                <div class="tShirt"  onclick= "selectShirt(this)">
+                <div id='tShirt' class="primeiro"  onclick= "selecionarModelos(this)">
                     <img class="foto" src="./imagens/FashionDriven/tshirt.png" alt="">
                     
                 </div>
     
-                <div class="camiseta" onclick= "selectShirt(this)">
+                <div id="camiseta" class="segundo" onclick= "selecionarModelos(this)">
                     <img  class='foto' src="./imagens/FashionDriven/Camiseta.png" alt="">
                     
                 </div>
     
-                <div class="mangaLonga" onclick= "selectShirt(this)" >
+                <div id='mangaLonga' class="terceiro" onclick= "selecionarModelos(this)" >
                     <img class='foto' src="./imagens/FashionDriven/Mangalonga.png" alt="">
                 </div>
            
@@ -51,24 +51,24 @@
 
                 <div class="golas">
                
-                    <div class="tShirt" onclick="selecionarGolas(this)">
-                        <img src="./imagens/FashionDriven/tshirt.png" alt="">
+                    <div id='golaV'class="primeiro" onclick="selecionarGolas(this)">
+                        <img src="./imagens/FashionDriven/GolaV.png" alt="">
                     </div>
         
-                    <div class="camiseta" onclick="selecionarGolas(this)">
-                        <img src="./imagens/FashionDriven/Camiseta.png" alt="">
+                    <div id='golaRedonda' class="segundo" onclick="selecionarGolas(this)">
+                        <img src="./imagens/FashionDriven/GolaRedonda.png" alt="">
                     </div>
         
-                    <div class="mangaLonga" onclick="selecionarGolas(this)">
-                        <img src="./imagens/FashionDriven/Mangalonga.png" alt="">
+                    <div id='golaPolo'class="terceiro" onclick="selecionarGolas(this)">
+                        <img src="./imagens/FashionDriven/GolaPolo.png" alt="">
                     </div>
                
                 </div>  
                 
                 <div class="subTitulos">
-                    <p>T-Shirt</p>
-                    <p>Camiseta</p>
-                    <p>Manga Longa</p>
+                    <p>Gola V</p>
+                    <p>Gola Redonda</p>
+                    <p>Gola Polo</p>
                 </div>
     
                 <div class="titulo">
@@ -77,24 +77,24 @@
 
                     <div class="tecido">
                    
-                        <div class="tShirt"onclick="selecionarTecido(this)">
-                            <img src="./imagens/FashionDriven/tshirt.png" alt="">
+                        <div id='seda'class="primeiro"onclick="selecionarTecido(this)">
+                            <img src="./imagens/FashionDriven/Seda.png" alt="">
                         </div>
             
-                        <div class="camiseta"onclick="selecionarTecido(this)">
-                            <img src="./imagens/FashionDriven/Camiseta.png" alt="">
+                        <div id='algodao'class="segundo"onclick="selecionarTecido(this)">
+                            <img src="./imagens/FashionDriven/Algodão.png" alt="">
                         </div>
             
-                        <div class="mangaLonga"onclick="selecionarTecido(this)">
-                            <img src="./imagens/FashionDriven/Mangalonga.png" alt="">
+                        <div id='poliester'class="terceiro"onclick="selecionarTecido(this)">
+                            <img src="./imagens/FashionDriven/Poliester.png" alt="">
                         </div>
 
                 </div>
                 
                 <div class="subTitulos">
-                    <p>T-Shirt</p>
-                    <p>Camiseta</p>
-                    <p>Manga Longa</p>
+                    <p>Seda</p>
+                    <p>Algodão</p>
+                    <p>Poliester</p>
                     </div>
 
                     <div class="titulo">
@@ -103,7 +103,7 @@
                     
                 <div class="inputs">
                     <input placeholder="Insira o link" type= "text">
-                    <a href="#" class="confirmar">Confirmar pedido</a>
+                    <a href="#" class="confirmar" onclick="blusasEncomendadas()">Confirmar pedido</a>
                 </div>    
         </div>
         
@@ -117,9 +117,9 @@
     <div class="footer">
         <h1>Ultimos pedidos</h1>
         <div class="pedidosFinalizados">
-            <div class="cards">
+            <!-- <div class="cards">
                 <img src="./imagens/FashionDriven/Blusa1.png" alt="">
-                <p>Criador: </p>
+                <p> <strong>Criador: </strong> </p>
             </div>
             <div class="cards">
                 <img src="./imagens/FashionDriven/Blusa1.png" alt="">
@@ -142,7 +142,7 @@
             </div> <div class="cards">
                 <img src="./imagens/FashionDriven/Blusa1.png" alt="">
                 <p>Criador: </p>
-            </div>
+            </div> -->
 
         </div>
     </div>
